@@ -1,0 +1,37 @@
+{
+  "name": "pkgmerge",
+  "version": "0.1.0",
+  "description": "Move those pesky configuration files to your package.json with pkgmerge",
+  "main": "pkgmerge.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/download/pkgmerge.git"
+  },
+  "scripts": {
+    "test": "mocha pkgmerge.spec.js",
+    "test-watch": "mocha --watch pkgmerge.spec.js"
+  },
+  "keywords": [
+    "package.json",
+    "configuration",
+    "pkgcfg",
+    "pkgvar",
+    "pkgpath",
+    "pkgtransform",
+    "pkgmerge"
+  ],
+  "author": "Stijn de Witt",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/download/pkgmerge/issues"
+  },
+  "homepage": "https://github.com/download/pkgmerge",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "object-path": "^0.9.2",
+    "path": "^0.12.7"
+  }
+}
